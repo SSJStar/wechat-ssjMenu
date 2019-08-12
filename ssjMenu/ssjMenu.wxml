@@ -1,0 +1,14 @@
+<view class="menueBox">
+  <view class="childView" hidden="{{show}}">
+    <view wx:for='{{menueList}}' >
+      <view class="mainView" bindtap="childViewClick" data-index="{{index}}">
+      {{menueList[index].title}}
+      </view>
+    </view>
+  </view>
+
+  <view class="mainView" bindtap="mainViewClick">
+  {{mainmodel.title}}
+  </view>
+
+</view>

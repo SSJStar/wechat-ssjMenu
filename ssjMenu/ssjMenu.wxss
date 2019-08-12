@@ -1,0 +1,14 @@
+.menueBox {
+  position: fixed;
+  bottom: 350rpx;
+  right: 30rpx;
+  text-align: center;
+}
+
+.mainView {
+  top: 10rpx;
+  width: 100rpx;
+  height: auto;
+  background-color: gainsboro;
+  text-align: center;
+}
